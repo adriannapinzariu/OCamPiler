@@ -1,0 +1,16 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/adriannapinzariu/.cache/dune/db
+# Workspace root: /Users/adriannapinzariu/OCamPiler/my_compiler
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/adriannapinzariu/.opam/default/bin/ocamlc.opt -config > /var/folders/4s/48pljw_513s9hzphfw9c9_7h0000gn/T/dune_3b3a0c_output

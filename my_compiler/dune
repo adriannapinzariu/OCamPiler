@@ -1,0 +1,14 @@
+(executable
+ (name main)
+ (modules ast typechecker compiler main lexer parser)
+ (libraries menhirLib))
+
+; Rule to generate the parser
+(menhir
+ (modules parser))
+
+; Rule to generate the lexer
+(rule
+ (targets lexer.ml)
+ (deps    lexer.mll)
+ (action  (run ocamllex %{deps})))
